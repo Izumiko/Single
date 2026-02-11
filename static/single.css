@@ -211,7 +211,8 @@ header{
     float: right;
     content: "\f107";
     margin-left: .3em;
-    font-family: "FontAwesome";
+    margin-top: .5em;
+    font: var(--fa-font-solid);
 }
 
 /* -- 手机版 */
@@ -336,7 +337,8 @@ header{
 .toggle-btn:before, .light-btn:before, .search-btn:before{
     display: block;
     text-align: center;
-    font: 1em/2em "FontAwesome";
+    font: var(--fa-font-solid);
+    line-height: 2em;
 }
 
 .toggle-btn:before{ content: "\f0c9" }
@@ -481,7 +483,7 @@ main img {
     font-size: inherit;
     margin-right: .4em;
     display: inline-block;
-    font-family: "FontAwesome";
+    font: var(--fa-font-solid);
 }
 
 .post-meta .date:before{ content: "\f017" }
@@ -580,7 +582,8 @@ article ul p:first-child{
 .post-tags:before{
     content: "\f02c";
     margin-right: .75em;
-    font-family: "FontAwesome";
+    margin-top: .3em;
+    font: var(--fa-font-solid);
 }
 .post-tags a{
     margin: 0 .75em .5em 0;
@@ -682,7 +685,7 @@ article ul p:first-child{
     content: "\f017";
     margin-right: .4em;
     display: inline-block;
-    font-family: "FontAwesome";
+    font: var(--fa-font-solid);
 }
 
 .comment-list .comment-author,
@@ -839,7 +842,7 @@ footer .to-top:before, footer .toggle-list:before{
     display: block;
     content: "\f062";
     text-align: center;
-    font-family: "FontAwesome";
+    font: var(--fa-font-solid);
 }
 footer .toggle-list{
     display: none;
@@ -861,7 +864,8 @@ footer .title-recent:after,
 footer .title-date:after{
     float: right;
     margin-right: .75em;
-    font-family: "FontAwesome";
+    margin-top: .25em;
+    font: var(--fa-font-solid);
 }
 
 footer .title-comments:after{ content: "\f0e6" }
@@ -883,7 +887,7 @@ footer .widget ul li:before{
     opacity: .3;
     content: "\f105";
     margin-right: .75em;
-    font-family: "FontAwesome";
+    font: var(--fa-font-solid);
 }
 
 footer .sub-footer{
