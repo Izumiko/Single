@@ -54,6 +54,15 @@
         copyright: <?= $this->options->copy_notice === '1' ? 'true' : 'false' ?>,
         night: <?= $this->options->night_mode === '1' ? 'true' : 'false' ?>
     });
+
+    document.querySelectorAll('pre').forEach(pre => {
+        if (pre.className.indexOf('line-numbers') === -1) {
+            pre.className += ' line-numbers';
+        }
+    });
+    if (typeof Prism !== 'undefined') {
+        Prism.highlightAll();
+    }
 </script>
 <?php $this->options->custom_script(); ?>
 <?php $this->footer(); ?>
